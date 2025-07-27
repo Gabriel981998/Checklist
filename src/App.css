@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+*{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.Arrowsplite{
+display: flex;
+flex-direction:row-reverse;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.arrowseparet{
+
+  display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
+width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color:rgb(5, 4, 32) ;
+}
+.Firstheader{
   color: white;
 }
+.Link{
+  padding-top: 20px;
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(240, 229, 15);
+  cursor: pointer;
+  padding-bottom: 20px;
+  text-decoration: none;
+  margin: 10px;
+  
+  
+  
 
-.App-link {
-  color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#checkbox{
+  border: 3px solid orange;
 }
+.checkbox{
+  width: 30px;
+  height: 30px;
+  border:6px solid Tomato;
+ 
+  border-radius: 8px;
+}
+
+.arrow{
+  width: 30px;
+}
+
+.card{
+ 
+
+  background-color:white;
+  border-radius: 8px;
+  overflow: hidden;
+  margin:  0 0.5rem;
+  margin-top: 10px;
+  box-shadow:  0px 35px 80px rgb(red, green, blue);
+}
+
+.card-header{
+  border-bottom: 1px solid white;
+  
+  padding:1rem 1.2rem;
+  background-color: rgb(12, 101, 217);
+}
+.title{
+
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(240, 229, 15);
+  cursor: pointer;
+}
+.card-body{
+  padding: 5rem 1.2rem;
+}
+.checkbox-container{
+  padding-bottom: 0.8rem;
+  padding-left: 6px ;
+
+ 
+}
+label {
+  font-size: 2rem;
+  color: black;
+  margin-right: 10px;
+
+  
+
+  cursor: pointer;
+}
+.list-container{
+  padding: 0.5 1rem 0 1rem;
+  display: flex;
+  align-items: center;
+  flex-wrap:wrap;
+
+}
+.chip{
+  padding: 0.3 1rem ;
+  background-color: brown;
+  border-radius: 0.2 rem;
+  margin: 0.2rem;
+}
+.chip-label{
+font-size: 0.7rem;
+color: chartreuse;
+}
+input[type="checkbox"]{
+  color:blueviolet;
+  cursor: pointer;
+}
+
+
+
