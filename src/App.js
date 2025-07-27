@@ -1,8 +1,11 @@
 import React from 'react'
 import './App.css'
 import { Link } from 'react-router';
+<<<<<<< HEAD
 import { FaArrowAltCircleLeft, FaRegArrowAltCircleLeft } from "react-icons/fa";
 import { FaArrowAltCircleRight } from "react-icons/fa";
+=======
+>>>>>>> d010ed6c6d791a81431b7db615ea736944071de3
 
 
 const LIST_DATA=[
@@ -41,6 +44,7 @@ const App = () => {
     <div className='container'>
       <div className='card'>
         <div className='card-header'>
+<<<<<<< HEAD
         <h1 className='Firstheader'>Boeing 737 - NG Series Flow/Checklist</h1>
         <p className='title'>Originator Flight</p>
           <div className='Arrowsplite'>
@@ -71,6 +75,10 @@ const App = () => {
 
           </div>
          
+=======
+          <h1 className='Firstheader'>Boeing 737 - NG Series Flow/Checklist</h1>
+          <p className='title'>Originator Flight</p>
+>>>>>>> d010ed6c6d791a81431b7db615ea736944071de3
 
         </div>
         <div className='card-body'>
@@ -81,7 +89,11 @@ const App = () => {
                     <label for={item.id}>{item.value}
 
 </label>
+<<<<<<< HEAD
                   <input   className='checkbox' type='checkbox' name='languages' id={item.id} value={item.value} onChange={handleSelect}/>
+=======
+                  <input className='checkbox' type='checkbox' name='languages' id={item.id} value={item.value} onChange={handleSelect}/>
+>>>>>>> d010ed6c6d791a81431b7db615ea736944071de3
                 
                   </div>
               )

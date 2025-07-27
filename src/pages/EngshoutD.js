@@ -1,7 +1,10 @@
 import React from 'react'
 import '../App.css'
 import { Link } from 'react-router';
+<<<<<<< HEAD
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from 'react-icons/fa';
+=======
+>>>>>>> d010ed6c6d791a81431b7db615ea736944071de3
 
 
 const LIST_DATA=[
@@ -42,6 +45,7 @@ const EngShoutD = () => {
         <div className='card-header'>
           <h1 className='Firstheader'>Boeing 737 - NG Series Flow/Checklist</h1>
           <p className='title'>ENGINE SHOUTDOWN/SECURING AIRCRAFT</p>
+<<<<<<< HEAD
           <div className='Arrowsplite'>
             <div className='arrowseparet'>
             <div>
@@ -69,6 +73,8 @@ const EngShoutD = () => {
    </div>
 
           </div>
+=======
+>>>>>>> d010ed6c6d791a81431b7db615ea736944071de3
 
         </div>
         <div className='card-body'>

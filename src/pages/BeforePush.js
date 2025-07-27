@@ -1,6 +1,7 @@
 import React from 'react'
 import '../App.css'
 import { Link } from 'react-router';
+<<<<<<< HEAD
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from 'react-icons/fa';
 
 
@@ -14,6 +15,20 @@ const LIST_DATA=[
   {id:"7" ,value:"APU GEN 1 & APU GEN 2.....................ON"},
   {id:"8" ,value:"AC Voltmeter Selector..................APU GEN"},
   {id:"9" ,value:"Set For Gate Departure...........ESTABLISHED"},
+=======
+
+
+const LIST_DATA=[
+  {id:"1" ,value:"Zero Fuel Weight..........................................SET"},
+  {id:"2" ,value:"N1s..........____/____ REDUCED SET____MAX SET"},
+  {id:"3" ,value:"Vspeeds.......................V1____,VR____,V2____SET"},
+  {id:"4" ,value:"Stab Trim..............................CONFIRMED SET"},
+  {id:"5" ,value:"Fuel Pumps..................................AS REQUIRED"},
+  {id:"6" ,value:"APU........................................START"},
+  {id:"7" ,value:"APU GEN 1 & APU GEN 2..............................ON"},
+  {id:"8" ,value:"AC Voltmeter Selector...........................APU GEN"},
+  {id:"9" ,value:"Set For Gate Departure..................ESTABLISHED"},
+>>>>>>> d010ed6c6d791a81431b7db615ea736944071de3
   
 
 
@@ -32,6 +47,7 @@ const BeforePush= () => {
         <div className='card-header'>
           <h1 className='Firstheader'>Boeing 737 - NG Series Flow/Checklist</h1>
           <p className='title'>BEFORE PUSH</p>
+<<<<<<< HEAD
           <div className='Arrowsplite'>
             <div className='arrowseparet'>
             <div>
@@ -59,6 +75,8 @@ const BeforePush= () => {
    </div>
 
           </div>
+=======
+>>>>>>> d010ed6c6d791a81431b7db615ea736944071de3
 
         </div>
         <div className='card-body'>
